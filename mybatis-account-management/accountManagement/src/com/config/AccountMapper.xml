@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="AccountMapper">
+
+  <select id="readOne" resultType="AccountDTO">
+    SELECT accountId, name, balance 
+    FROM tb_account
+    WHERE accountId = #{accountId}
+  </select>
+  
+  <select id="readAll" resultType="AccountDTO">
+    SELECT accountId, name, balance 
+    FROM tb_account
+    ORDER BY accountId
+  </select>
+  
+  <update id="updateBalance" parameterType="AccountDTO">
+    UPDATE tb_account
+  	SET balance=(balance + #{balance})
+  	WHERE accountId = #{accountId}
+  </update>
+  
+  <insert id="createAccount" parameterType="AccountDTO">
+    INSERT INTO tb_account (accountId, name) 
+    VALUES ( account.account_id_seq.nextval, #{name} )
+  </insert>
+  
+  <delete id="deleteAccount" parameterType="int">
+ 	DELETE FROM tb_account
+  	WHERE accountId=#{accountId}
+  </delete>
+ 
+</mapper>
