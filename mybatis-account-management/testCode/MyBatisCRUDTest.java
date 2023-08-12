@@ -50,6 +50,11 @@ public class MyBatisCRUDTest {
             }
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            // SqlSession 닫기
+            if (session != null) {
+                session.close();
+            }
         }
     }
 }
