@@ -75,28 +75,28 @@
 ### 🎥 실행 영상
 
 ### 0️⃣ 전체 데이터 조회
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211321-bd8f7603-a5a1-444b-af70-5de090558a55.gif"/>
 
 ### 1️⃣ 송금
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211529-61741be4-3d32-47f4-a1de-3e7eb9d38a82.gif"/>
 
 ### 2️⃣ 입금
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211387-4500e9fb-cc96-4131-adec-d56b2aebebbd.gif"/>
 
 ### 3️⃣ 계좌 추가
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211197-62f557f9-30ff-452b-92f6-3076b28a2105.gif"/>
  
 ### 4️⃣ 계좌 삭제
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211703-b5293192-eb92-4edb-956c-047d37d36dbc.gif"/>
 
 ### 5️⃣ 송신에러 처리
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211508-0347c9dc-8d39-42a2-9739-bb46139a78ac.gif"/>
 
 ### 6️⃣ 수신에러 처리
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211450-43321b1a-901a-4cbd-a4f2-436d911990be.gif"/>
 
 ### 7️⃣ 삭제에러 처리
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260211283-98f55580-bfe7-4b7d-9fb1-f5b1130b1537.gif"/>
 
 ### 8️⃣ 종료
-<img src=" "/>
+<img src="https://user-images.githubusercontent.com/71202869/260210973-ebbe4687-dc4c-45cc-8337-8df03f17e18e.gif"/>
