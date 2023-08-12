@@ -1,0 +1,30 @@
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="your.package.name.mapper.YourMapper"> <!-- YourMapper 인터페이스의 패키지와 이름을 정확하게 지정 -->
+
+    <!-- CREATE: 새 데이터 추가 -->
+    <insert id="insertYourDTO" parameterType="your.package.name.dto.YourDTO"> <!-- YourDTO 클래스의 패키지와 이름을 정확하게 지정 -->
+        INSERT INTO your_table_name (id, name)
+        VALUES (#{id}, #{name})
+    </insert>
+
+    <!-- READ: 모든 데이터 조회 -->
+    <select id="selectAllYourDTOs" resultType="your.package.name.dto.YourDTO"> <!-- YourDTO 클래스의 패키지와 이름을 정확하게 지정 -->
+        SELECT * FROM your_table_name
+    </select>
+
+    <!-- UPDATE: 데이터 업데이트 -->
+    <update id="updateYourDTO" parameterType="your.package.name.dto.YourDTO"> <!-- YourDTO 클래스의 패키지와 이름을 정확하게 지정 -->
+        UPDATE your_table_name
+        SET name = #{name}
+        WHERE id = #{id}
+    </update>
+
+    <!-- DELETE: 데이터 삭제 -->
+    <delete id="deleteYourDTO" parameterType="int">
+        DELETE FROM your_table_name
+        WHERE id = #{id}
+    </delete>
+</mapper>
