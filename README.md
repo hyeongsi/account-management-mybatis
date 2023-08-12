@@ -66,7 +66,7 @@
 ## 🕹 실행 가이드라인
 ### [0️⃣ 프로젝트 로드](https://github.com/hyeongsi/account-management-jdbc/issues/1#issue-1837711412)
 ### [1️⃣ utf-8 설정](https://github.com/hyeongsi/account-management-jdbc/issues/2#issue-1837712641)
-### [2️⃣ oracle jdbc driver buildpath](https://github.com/hyeongsi/account-management-jdbc/issues/3#issue-1837713794)
+### [2️⃣ oracle jdbc driver, mybatis buildpath](https://github.com/hyeongsi/account-management-mybatis/issues/2#issue-1847837280)
 ### [3️⃣ create user, table, init data](https://github.com/hyeongsi/jdbc_account_management/issues/4#issue-1837732672)
 <br/><br/>
 
