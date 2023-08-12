@@ -71,7 +71,11 @@
 ### [3️⃣ create user, table, init data](https://github.com/hyeongsi/jdbc_account_management/issues/4#issue-1837732672)
 <br/><br/>
 
-## 📺 실행 이미지 / 영상
+## 📺 이미지 / 영상
+### 🖼️ 클래스 다이어그램
+<img src="https://user-images.githubusercontent.com/71202869/260237247-6bd193a9-dd8d-45d1-9cc9-737893e92354.png"/>
+
+##
 
 ### 🎥 실행 영상
 
